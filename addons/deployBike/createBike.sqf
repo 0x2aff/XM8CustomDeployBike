@@ -1,3 +1,6 @@
+// 2016 (c) 0x2AFF (exceptionptr)
+// https://github.com/0x2aff/XM8CustomDeployBike
+
 if (isDedicated || isServer) then
 {
 	"do_CreateBike" addPublicVariableEventHandler

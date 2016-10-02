@@ -9,8 +9,8 @@ XM8CustomApps (InfiSTAR) Deploy Bike System by exceptionptr (0x2AFF)
 ```
 // Deploy/Scrap Bike Functions
 #include "addons\deployBike\createBike.sqf";
-fnc_bike_deploy = compileFinal preprocessFileLineNumbers "addons\deployBike\deployBike.sqf"
-fnc_bike_scrap = compileFinal preprocessFileLineNumbers "addons\deployBike\scrapBike.sqf"
+fnc_bike_deploy = compileFinal preprocessFileLineNumbers "addons\deployBike\deployBike.sqf";
+fnc_bike_scrap = compileFinal preprocessFileLineNumbers "addons\deployBike\scrapBike.sqf";
 ```
 - Open your mpmissions config.cpp and find `class Bikes {};`and add the `class Scrap:ExileAbstractAction` to the class:
 

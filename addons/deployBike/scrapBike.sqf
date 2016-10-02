@@ -1,3 +1,6 @@
+// 2016 (c) 0x2AFF (exceptionptr)
+// https://github.com/0x2aff/XM8CustomDeployBike
+
 if !((vehicle player) isEqualTo player) exitWith {};
 
 if (typeOf cursorTarget == "Exile_Bike_OldBike" || typeOf cursorTarget == "Exile_Bike_MountainBike") then {
