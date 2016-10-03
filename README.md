@@ -33,7 +33,7 @@ class Bikes
 			{
 				title = "Scrap";
 				condition = "true";
-				action = "call fnc_bike_scrap";
+				action = "_this call fnc_bike_scrap";
 			};
 		};
 	};
