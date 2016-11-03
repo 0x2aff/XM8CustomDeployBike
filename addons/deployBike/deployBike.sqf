@@ -8,6 +8,7 @@ if ("Exile_Item_DuctTape" in (magazines player)) then {
     player removeItem "Exile_Item_DuctTape";
 	
     _spawnPos = player modelToWorld [0,3,0];
+    _spawnDir =  getDir player;
     do_CreateBike = [player, _spawnPos, _spawnDir];
     publicVariableServer "do_CreateBike";
 	
